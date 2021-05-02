@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ешь Худей - Правильное Питание</title>
+    <!--normalize link-->
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <!--styles link-->
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/a2d96a294b.js" crossorigin="anonymous"></script>
+    <!--shortcut icon-->
+    <link rel="shortcut icon" href="/img/icon.ico" type="image/x-icon">
+
+    <!--preload-->
+    <script type="text/javascript" src="js/preloader.js"></script>
+    <!--jquery-->
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <!--banner functions-->
+    <script type="text/javascript" src="js/bannerFunctions.js" defer></script>
+    <!--menu-->
+    <script type="text/javascript" src="js/menu.js" defer></script>
+    <!--adaptive-->
+    <script type="text/javascript" src="js/adaptive.js"></script>
+    <!--links-->
+    <script type="text/javascript" src="js/links.js"></script>
+    <!--calculator-->
+    <script type="text/javascript" src="js/calculator.js"></script>
+    <!--masked input plugin-->
+    <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+    <!--gradient animation-->
+    <script type="text/javascript" src="js/gradient.js"></script>
+</head>
+<body>
+    <div class="preloader" id="page-preloader">
+        <div class="loader"></div>
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="header-wrap">
+                <a href="/" class="header-logo">Ешь & Худей</a>
+                <nav class="header-menu">
+                    <ul class="hm">
+                        <li class="hm-li"><a href="#about_us" class="hm-a">Почему мы?</a></li>
+                        <li class="hm-li"><a href="#calculator" class="hm-a">Калькулятор</a></li>
+                        <li class="hm-li"><a href="#delivery" class="hm-a">Доставка</a></li>
+                        <li class="hm-li"><a href="#menu" class="hm-a">Меню</a></li>
+                    </ul>
+                    <div class="mobile-column">
+                        <a href="https://wa.me/77471081267" class="mobile-link"><i class="fab fa-whatsapp mobile-icon"></i>Whatsapp</a>
+                        <a href="https://www.instagram.com/esh_hudei_/" class="mobile-link"><i class="fab fa-instagram mobile-icon"></i>Instagram</a>
+                    </div>
+                </nav>
+                <div class="city">
+                    <span class="city-text">Город: Шымкент</span>
+                </div>
+                <div class="header-phone">
+                    <div class="phone-row">
+                        <i class="fas fa-phone-square-alt phone-i"></i>
+                        <a href="tel:+77072040208" class="phone-number">+7(707)204-02-08</a>
+                    </div>
+                    <button class="callback">Перезвоните мне</button>
+                </div>
+                <div class="mobile-menu">
+                    <div class="phone-mobile">
+                        <i class="fas fa-phone-alt phone-mobile-i"></i>
+                    </div>
+                    <div class="header-burger">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="mobile-phone">
+                    <a class="mobile-phone-link" href="tel:+77072040208">ПОЗВОНИТЬ</a>
+                    <a class="mobile-phone-link mobile-callback" return false>ЖДАТЬ ОБРАТНЫЙ ЗВОНОК</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="callback-wrap">
+            <div class="callback-color"></div>
+            <form action="includes/takephone.php" method="post" class="callback-form">
+                <span class="callback-exit"></span>
+                <h2 class="callback-heading">Оставьте телефон и мы свяжемся с вами</h2>
+                <input name="phone" type="tel" id="phone-mobile" placeholder="+7 (___) ___-__-__" class="callback-input">
+                <input type="submit" class="callback-input callback-button" value="ОТПРАВИТЬ">
+                <h3 class="callback-note">Нажимая на 'Отправить', вы принимаете условия пользовательского соглашения</h3>
+            </form>
+        </div>
+        <section class="banner-section" id="banner">
+            <div class="container">
+                <div class="banner-wrap">
+                    <div class="banner-text">
+                        <h1 class="banner-brand">Ешь & Худей.</h1>
+                        <h1 class="banner-changing-heading">Худей легко и быстро!</h1>
+                        <h2 class="banner-bottom-text">Правильное питание на каждый день</h2>
+                        <h2 class="banner-bottom-text smaller-heading">Закажи и меняй себя прямо сейчас</h2>
+                        <a class="banner-link" href="#order">Оформить заказ</a>
+                    </div>
+                    <div class="banner-slider">
+                        <span class="slider-btn slider-left"><i class="fas fa-angle-left"></i></span>
+                        <span class="slider-btn slider-right"><i class="fas fa-angle-right"></i></span>
+                        <div class="slider-track">
+                            <div class="slide">
+                                <img src="img/slider/slideimg-1.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="img/slider/slideimg-2.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="img/slider/slideimg-3.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="img/slider/slideimg-4.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="img/slider/slideimg-5.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="img/slider/slideimg-6.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/elements/avocado.png" alt="" class="between-sections-img">
+            </div>
+        </section>
+        <section class="about_us-section" id="about_us">
+            <div class="container">
+                <h1 class="top-heading about_us-heading">Почему мы?</h1>
+                <div class="about_us-info-row">
+                    <div class="about_us-info-block">
+                        <i class="fas fa-truck about_us-info-icon"></i>
+                        <h2 class="about_us-info-text">Бесплатная доставка по городу</h2>
+                    </div>
+                    <div class="about_us-info-block">
+                        <i class="fas fa-utensils about_us-info-icon"></i>
+                        <h2 class="about_us-info-text">Разнообразие в меню</h2>
+                    </div>
+                    <div class="about_us-info-block">
+                        <i class="fas fa-carrot about_us-info-icon"></i>
+                        <h2 class="about_us-info-text">Больше овощей и фруктов</h2>
+                    </div>
+                    <div class="about_us-info-block">
+                        <i class="fas fa-money-bill-wave about_us-info-icon"></i>
+                        <h2 class="about_us-info-text">Минимальная цена</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="calculator-section" id="calculator">
+            <div class="container">
+                <h1 class="top-heading calculator-heading">Сколько ккал мне необходимо?</h1>
+                <h2 class="inner-heading">Узнайте свою суточную норму потребления энергии с помощью нашего калькулятора</h2>
+                <h2 class="inner-heading">Для рассчетов используется формула Миффлина - Сан-Жеора</h2>
+                <div class="calculator-wrap">
+                    <div class="calc-group">
+                        <label for="" class="calc-label">Укажите свой пол:</label>
+                        <div class="calc-genders">
+                            <button class="calc-gender">Мужчина</button>
+                            <button class="calc-gender">Женщина</button>
+                        </div>
+                    </div>
+                    <div class="calc-group">
+                        <label for="" class="calc-label">Ваш текущий вес (в кг.):</label>
+                        <input type="text" placeholder="50" class="calc-input calc-weight">
+                    </div>
+                    <div class="calc-group">
+                        <label for="" class="calc-label">Ваш текущий рост (в см.):</label>
+                        <input type="text" placeholder="170" class="calc-input calc-height">
+                    </div>
+                    <div class="calc-group">
+                        <label for="" class="calc-label">Ваш возраст (в годах):</label>
+                        <input type="text" placeholder="24" class="calc-input calc-age">
+                    </div>
+                    <div class="calc-group">
+                        <label for="" class="calc-label">На сколько часто вы занимаетесь спортом?</label>
+                        <select name="sport" class="calc-select">
+                            <option value="no">Не занимаюсь</option>
+                            <option value="1-3">1-3 раза в неделю</option>
+                            <option value="3-5">3-5 раз в неделю</option>
+                            <option value="6-7">6-7 раз в неделю</option>
+                            <option value="everyday">Каждый день по два раза</option>
+                        </select>
+                        <button class="calc-button">Рассчитать</button>
+                    </div>
+                    <div class="calc-group">
+                        <span class="calc-result">0 ККАЛ</span>
+                    </div>
+                    <img src="img/elements/apple.png" alt="" class="between-sections-img-right">
+                </div>
+            </div>
+        </section>
+        <section class="delivery-section" id="delivery">
+            <div class="container">
+                <h1 class="top-heading delivery-heading">Бесплатная доставка</h1>
+                <h2 class="inner-heading">Бесплатная доставка осуществляется внутри зелёной зоны на карте</h2>
+                <a href="delivery.php" class="delivery-link">Подробнее</a>
+                <div class="map-wrap">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af00ae49dbaecdf3488e596e43ab8e1b4f915d77dd8e842abf7cf7f5b5b85711c&amp;width=100%25&amp;height=450&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+            </div>
+        </section>
+        <section class="order-section" id="order">
+            <div class="container">
+                <h1 class="top-heading order-heading">Отправить заявку</h1>
+                <form action="includes/takeform.php" method="post" class="order-form">
+                    <div class="order-group">
+                        <label for="name" class="order-label">Имя*:</label>
+                        <input name="name" type="text" id="name" class="order-input" required>
+                    </div>
+                    <div class="order-group">
+                        <label for="phone" class="order-label">Телефон*:</label>
+                        <input name="phone" type="tel" id="phone" placeholder="+7 (___) ___-__-__" class="order-input" required>
+                    </div>
+                    <div class="order-group">
+                        <label for="email" class="order-label">Почта (если так удобнее):</label>
+                        <input name="email" type="email" id="email" placeholder="@" class="order-input">
+                    </div>
+                    <div class="order-group">
+                        <input name="submit" type="submit" class="order-submit">
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="menu-section" id="menu">
+            <div class="container">
+                <h1 class="top-heading menu-heading">Пример Меню</h1>
+                <h2 class="inner-heading">Сбалансированное питание каждый день</h2>
+                <a href="docs/menu.pdf" class="menu-link">Подробнее</a>
+                <div class="menu-slider-wrap">
+                    <span class="menu-slider-btn menu-slider-left"><i class="fas fa-angle-left"></i></span>
+                    <span class="menu-slider-btn menu-slider-right"><i class="fas fa-angle-right"></i></span>
+                    <div class="menu-slider">
+                        <div class="menu-slider-track">
+                            <div class="menu-slide">
+                                <h4 class="menu-meal-heading">Завтрак</h4>
+                                <p class="menu-text">150г. творога, 2 яйца фаршированных грибами, чай</p>
+                                <img src="img/foods/oatmeal.jpg" alt="">
+                            </div>
+                            <div class="menu-slide">
+                                <h4 class="menu-meal-heading">Обед</h4>
+                                <p class="menu-text">150г. овощного салата, 100г. отварного мяса, кофе</p>
+                                <img src="img/foods/salad.jpg" alt="">
+                            </div>
+                            <div class="menu-slide">
+                                <h4 class="menu-meal-heading">Полдник</h4>
+                                <p class="menu-text">Фрукт/цитрус/сок</p>
+                                <img src="img/foods/apple.jpg" alt="">
+                            </div>
+                            <div class="menu-slide">
+                                <h4 class="menu-meal-heading">Ужин</h4>
+                                <p class="menu-text">100г. отварной цветной капусты, 150г. запеченной курицы</p>
+                                <img src="img/foods/chicken.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="delivery active">
+            <div class="delivery-bc"></div>
+            <div class="delivery-block">
+                <span class="delivery-exit"></span>
+                <h2 class="delivery-block-heading">Бесплатная доставка в центр города, мкр. Нурсат, Нуртас, Самал до Тельмана, Тараз, Бам</h2>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-wrap">
+            <div class="container">
+                <div class="footer-top">
+                    <a href="/" class="footer-logo">Ешь & Худей</a>
+                    <nav class="footer-menu">
+                        <ul class="fm">
+                            <li class="fm-li"><a href="#about_us" class="foo-a">Почему мы?</a></li>
+                            <li class="fm-li"><a href="#calculator" class="foo-a">Калькулятор</a></li>
+                            <li class="fm-li"><a href="#delivery" class="foo-a">Доставка</a></li>
+                            <li class="fm-li"><a href="#menu" class="foo-a">Меню</a></li>
+                        </ul>
+                    </nav>
+                    <div class="footer-phone">
+                        <a href="tel:+77072040208" class="footer-phone-number">+7(707)204-02-08</a>
+                        <span class="footer-mail">orymbakova78@mail.ru</span>
+                    </div>
+                    <div class="footer-links">
+                        <a href="https://wa.me/77471081267" class="footer-link"><i class="fab fa-whatsapp foo-icon"></i></a>
+                        <a href="https://www.instagram.com/esh_hudei_/" class="footer-link"><i class="fab fa-instagram foo-icon"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <span class="footer-copyright">@ 2020 EshHudei</span>
+                <span class="footer-copyright garamond">Правильное питание Шымкент</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
